@@ -1,0 +1,35 @@
+﻿빌드 시작: 2015-01-30 오후 7:56:30
+     1>2 노드의 "C:\Users\sp\Desktop\StateVisualizer\NMsgrClnt\NMsgrClnt.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\NMsgrClnt.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt glBodyRenderer.cpp
+         glBodyRenderer.cpp
+     1>glBodyRenderer.cpp(31): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 'strcpy' 선언을 참조하십시오.
+     1>glBodyRenderer.cpp(134): warning C4244: '+=' : 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>glBodyRenderer.cpp(135): warning C4244: '+=' : 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>glBodyRenderer.cpp(223): warning C4244: '인수' : 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>glBodyRenderer.cpp(224): warning C4244: '인수' : 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>glBodyRenderer.cpp(225): warning C4244: '인수' : 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>glBodyRenderer.cpp(226): warning C4244: '인수' : 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>glBodyRenderer.cpp(249): warning C4305: '초기화 중' : 'double'에서 'float'(으)로 잘립니다.
+     1>glBodyRenderer.cpp(250): warning C4305: '초기화 중' : 'double'에서 'float'(으)로 잘립니다.
+     1>glBodyRenderer.cpp(347): warning C4305: '초기화 중' : 'double'에서 'const float'(으)로 잘립니다.
+     1>glBodyRenderer.cpp(348): warning C4305: '초기화 중' : 'double'에서 'const float'(으)로 잘립니다.
+     1>glBodyRenderer.cpp(360): warning C4305: '=' : 'double'에서 'float'(으)로 잘립니다.
+     1>glBodyRenderer.cpp(363): warning C4244: '초기화 중' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sp\Desktop\StateVisualizer\Release\NMsgrClnt.exe" /INCREMENTAL:NO /NOLOGO Kinect20.lib Kinect20.Face.lib Kinect20.Fusion.lib glfw3.lib glfw3dll.lib opengl32.lib glu32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\sp\Desktop\StateVisualizer\Release\NMsgrClnt.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sp\Desktop\StateVisualizer\Release\NMsgrClnt.lib" /MACHINE:X86 /SAFESEH Release\NMsgrClnt.res
+         Release\glBodyRenderer.obj
+         Release\NMsgrClnt.obj
+         Release\NMsgrClntDlg.obj
+         Release\StateVecRecord.obj
+         Release\stdafx.obj
+         Release\Thread.obj
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         NMsgrClnt.vcxproj -> C:\Users\sp\Desktop\StateVisualizer\Release\NMsgrClnt.exe
+     1>"C:\Users\sp\Desktop\StateVisualizer\NMsgrClnt\NMsgrClnt.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.52
